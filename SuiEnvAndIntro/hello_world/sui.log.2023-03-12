@@ -1,0 +1,37 @@
+2023-03-12T13:35:09.252510Z  INFO sui::client_commands: [1m----- Certificate ----[0m
+2023-03-12T13:35:09.255312Z  INFO sui::client_commands: Transaction Hash: TransactionDigest(5oKPNb9xPydcUfJrQ5dcT4TQ5nAAZKpAZJUdvvQKwdjz)
+2023-03-12T13:35:09.255333Z  INFO sui::client_commands: Transaction Signature: [Signature(AQ==@EVXx7KD2tswnN/TtPbH3mw43i8pFCO/gaqKYLy0dPpVtqSJIPZQJXhEB+UMzsskmONoqAxGylqJNy8wEenUbhg==@A5OvyYAut3Zpy7T3S/LZL5vdfgR0+ovq4+QOUO0fxw+c)]
+2023-03-12T13:35:09.255341Z  INFO sui::client_commands: Signed Authorities Bitmap: RoaringBitmap<[0, 2, 3]>
+2023-03-12T13:35:09.255348Z  INFO sui::client_commands: Transaction Kind : Publish
+2023-03-12T13:35:09.255355Z  INFO sui::client_commands: Sender: 0x15d2b782e1ab6130bb312c477439126c06ffb594
+2023-03-12T13:35:09.255363Z  INFO sui::client_commands: Gas Payment: Object ID: 0x07e8ca322f770dcb0b3c9a3f3809d01be23798d5, version: 0xa1bd, digest: o#iPp4K/EzVurhyAaRPM69edts7LjBsJsIU7+7Ttqj9mc=
+2023-03-12T13:35:09.255371Z  INFO sui::client_commands: Gas Owner: 0x15d2b782e1ab6130bb312c477439126c06ffb594
+2023-03-12T13:35:09.255378Z  INFO sui::client_commands: Gas Price: 1
+2023-03-12T13:35:09.255385Z  INFO sui::client_commands: Gas Budget: 30000
+2023-03-12T13:35:09.255393Z  INFO sui::client_commands: [1m----- Transaction Effects ----[0m
+2023-03-12T13:35:09.255400Z  INFO sui::client_commands: Status : Success
+2023-03-12T13:35:09.255407Z  INFO sui::client_commands: Created Objects:
+2023-03-12T13:35:09.255414Z  INFO sui::client_commands:   - ID: 0xca451c8640c301b18da42f86109ec48c243d9917 , Owner: Immutable
+2023-03-12T13:35:09.255421Z  INFO sui::client_commands: Mutated Objects:
+2023-03-12T13:35:09.255430Z  INFO sui::client_commands:   - ID: 0x07e8ca322f770dcb0b3c9a3f3809d01be23798d5 , Owner: Account Address ( 0x15d2b782e1ab6130bb312c477439126c06ffb594 )
+2023-03-12T13:40:18.680666Z  INFO sui::client_commands: [1m----- Certificate ----[0m
+2023-03-12T13:40:18.681774Z  INFO sui::client_commands: Transaction Hash: TransactionDigest(4G9nRghVHE8BHf4DCwfPhcRpVZG1S3hjfdTSFP8CKdXj)
+2023-03-12T13:40:18.681787Z  INFO sui::client_commands: Transaction Signature: [Signature(AQ==@m7VpM4PNWqFimLIcebja87+vdxf2zt/O4q6fKcLlaa1AwMbB1hxYPEPNmBWsy/2Daxdfz3/1Q4ppm0kMSG631A==@A5OvyYAut3Zpy7T3S/LZL5vdfgR0+ovq4+QOUO0fxw+c)]
+2023-03-12T13:40:18.681794Z  INFO sui::client_commands: Signed Authorities Bitmap: RoaringBitmap<[0, 1, 2]>
+2023-03-12T13:40:18.681799Z  INFO sui::client_commands: Transaction Kind : Call
+2023-03-12T13:40:18.681805Z  INFO sui::client_commands: Package ID : 0xca451c8640c301b18da42f86109ec48c243d9917
+2023-03-12T13:40:18.681810Z  INFO sui::client_commands: Module : hello_world
+2023-03-12T13:40:18.681816Z  INFO sui::client_commands: Function : mint
+2023-03-12T13:40:18.681821Z  INFO sui::client_commands: Arguments : []
+2023-03-12T13:40:18.681827Z  INFO sui::client_commands: Type Arguments : []
+2023-03-12T13:40:18.681833Z  INFO sui::client_commands: Sender: 0x15d2b782e1ab6130bb312c477439126c06ffb594
+2023-03-12T13:40:18.681839Z  INFO sui::client_commands: Gas Payment: Object ID: 0x07e8ca322f770dcb0b3c9a3f3809d01be23798d5, version: 0xa1be, digest: o#1jBYv+naq2rN814IHZ8Y2XIra5and2NRRAIf/x/xXVk=
+2023-03-12T13:40:18.681845Z  INFO sui::client_commands: Gas Owner: 0x15d2b782e1ab6130bb312c477439126c06ffb594
+2023-03-12T13:40:18.681850Z  INFO sui::client_commands: Gas Price: 1
+2023-03-12T13:40:18.681855Z  INFO sui::client_commands: Gas Budget: 30000
+2023-03-12T13:40:18.681861Z  INFO sui::client_commands: [1m----- Transaction Effects ----[0m
+2023-03-12T13:40:18.681866Z  INFO sui::client_commands: Status : Success
+2023-03-12T13:40:18.681871Z  INFO sui::client_commands: Created Objects:
+2023-03-12T13:40:18.681877Z  INFO sui::client_commands:   - ID: 0xc31d4594ebbbd6404f4ac7cf3d61a5061c9f201c , Owner: Account Address ( 0x15d2b782e1ab6130bb312c477439126c06ffb594 )
+2023-03-12T13:40:18.681883Z  INFO sui::client_commands: Mutated Objects:
+2023-03-12T13:40:18.681941Z  INFO sui::client_commands:   - ID: 0x07e8ca322f770dcb0b3c9a3f3809d01be23798d5 , Owner: Account Address ( 0x15d2b782e1ab6130bb312c477439126c06ffb594 )
